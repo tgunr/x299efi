@@ -1,0 +1,566 @@
+0:100  0:100  MemLog inited, TSC freq: 3504488300
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 15.4.2019,  21:32:0 (GMT)
+0:100  0:000  Starting Clover revision: 4903 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/kgp/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 37 | OS: 10.14.3 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(1,GPT,42FD5A6D-B683-41B3-9C87-3F3725A66EE8,0x28,0x64000) @3ABF8A18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:106  0:006  === [ Get Smbios ] ========================================
+0:106  0:000  Type 16 Index = 0
+0:106  0:000  Type 16 Index = 1
+0:106  0:000  Total Memory Slots Count = 4
+0:106  0:000  Type 17 Index = 0
+0:106  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:106  0:000  SmbiosTable.Type17->Size = 16384MB
+0:106  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_A0
+0:106  0:000  SmbiosTable.Type17->Vendor = 
+0:106  0:000  SmbiosTable.Type17->SerialNumber = 
+0:106  0:000  SmbiosTable.Type17->PartNumber = 
+0:106  0:000  Type 17 Index = 1
+0:106  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:106  0:000  SmbiosTable.Type17->Size = 16384MB
+0:106  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_B0
+0:106  0:000  SmbiosTable.Type17->Vendor = 
+0:106  0:000  SmbiosTable.Type17->SerialNumber = 
+0:106  0:000  SmbiosTable.Type17->PartNumber = 
+0:106  0:000  Type 17 Index = 2
+0:106  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:106  0:000  SmbiosTable.Type17->Size = 16384MB
+0:106  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_C0
+0:106  0:000  SmbiosTable.Type17->Vendor = 
+0:106  0:000  SmbiosTable.Type17->SerialNumber = 
+0:106  0:000  SmbiosTable.Type17->PartNumber = 
+0:106  0:000  Type 17 Index = 3
+0:106  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:106  0:000  SmbiosTable.Type17->Size = 16384MB
+0:106  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_D0
+0:106  0:000  SmbiosTable.Type17->Vendor = 
+0:106  0:000  SmbiosTable.Type17->SerialNumber = 
+0:106  0:000  SmbiosTable.Type17->PartNumber = 
+0:106  0:000  Boot status=0
+0:106  0:000  Running on: 'To Be Filled By O.E.M.' with board 'X299M Extreme4'
+0:106  0:000  === [ GetCPUProperties ] ==================================
+0:106  0:000  CPU Vendor = 756E6547 Model=50654
+0:106  0:000   The CPU supported SSE4.1
+0:107  0:000  BrandString = Intel(R) Core(TM) i9-9900X CPU @ 3.50GHz
+0:107  0:000   The CPU supported turbo
+0:107  0:000  MSR 0x35               A0014
+0:107  0:000   TSC/CCC Information Leaf:
+0:107  0:000    numerator     : 292
+0:107  0:000    denominator   : 2
+0:107  0:000   Calibrated ARTFrequency: 24003344
+0:107  0:000  MSR 0xE2 before patch 00000407
+0:107  0:000  MSR 0xCE              00070C2C_F3012300
+0:107  0:000  MSR 0x1B0             00000000
+0:107  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:107  0:000  MaxDiv/MinDiv: 35.0/12
+0:107  0:000  Turbo: 41/41/42/45
+0:107  0:000  Features: 0xBFEBFBFF
+0:107  0:000  Threads: 20
+0:107  0:000  Cores: 10
+0:107  0:000  FSB: 100 MHz
+0:107  0:000  CPU: 3500 MHz
+0:107  0:000  TSC: 3500 MHz
+0:107  0:000  PIS: 100 MHz
+0:107  0:000  ExternalClock: 25 MHz
+0:107  0:000  === [ GetDevices ] ========================================
+0:107  0:000  PCI (00|00:00.00) : 8086 2020 class=060000
+0:107  0:000  PCI (00|00:04.00) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.01) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.02) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.03) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.04) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.05) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.06) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:04.07) : 8086 2021 class=088000
+0:107  0:000  PCI (00|00:05.00) : 8086 2024 class=088000
+0:107  0:000  PCI (00|00:05.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|00:05.02) : 8086 2025 class=088000
+0:107  0:000  PCI (00|00:05.04) : 8086 2026 class=080020
+0:107  0:000  PCI (00|00:05.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|00:07.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|00:07.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|00:07.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|00:08.00) : 8086 2014 class=088000
+0:107  0:000  PCI (00|00:08.01) : 8086 2015 class=110100
+0:107  0:000  PCI (00|00:08.02) : 8086 2016 class=088000
+0:107  0:000  PCI (00|00:14.00) : 8086 A2AF class=0C0330
+0:107  0:000  PCI (00|00:14.02) : 8086 A2B1 class=118000
+0:107  0:000  PCI (00|00:16.00) : 8086 A2BA class=078000
+0:107  0:000  PCI (00|00:17.00) : 8086 A282 class=010601
+0:107  0:000  PCI (00|00:1B.00) : 8086 A2E7 class=060400
+0:107  0:000  PCI (00|00:1B.04) : 8086 A2EB class=060400
+0:107  0:000  PCI (00|02:00.00) : 8086 F1A8 class=010802
+0:107  0:000  PCI (00|00:1C.00) : 8086 A290 class=060400
+0:107  0:000  PCI (00|03:00.00) : 1B21 2142 class=0C0330
+0:107  0:000  PCI (00|00:1C.02) : 8086 A292 class=060400
+0:107  0:000  PCI (00|04:00.00) : 8086 1539 class=020000
+0:107  0:000   - LAN: 0 Vendor=Intel
+0:107  0:000  PCI (00|00:1D.00) : 8086 A298 class=060400
+0:107  0:000  PCI (00|05:00.00) : 8086 F1A8 class=010802
+0:107  0:000  PCI (00|00:1F.00) : 8086 A2D2 class=060100
+0:107  0:000  PCI (00|00:1F.02) : 8086 A2A1 class=058000
+0:107  0:000  PCI (00|00:1F.03) : 8086 A2F0 class=040300
+0:107  0:000  PCI (00|00:1F.04) : 8086 A2A3 class=0C0500
+0:107  0:000  PCI (00|00:1F.06) : 8086 15B8 class=020000
+0:107  0:000   - LAN: 1 Vendor=Intel
+0:107  0:000  PCI (00|16:05.00) : 8086 2034 class=088000
+0:107  0:000  PCI (00|16:05.02) : 8086 2035 class=088000
+0:107  0:000  PCI (00|16:05.04) : 8086 2036 class=080020
+0:107  0:000  PCI (00|16:05.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.02) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.03) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:07.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:08.00) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.01) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.02) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.03) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.04) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.05) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.06) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:08.07) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.00) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.01) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.02) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.03) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.04) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.05) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.06) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:09.07) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:0A.00) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:0A.01) : 8086 208D class=088000
+0:107  0:000  PCI (00|16:0E.00) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.01) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.02) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.03) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.04) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.05) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.06) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0E.07) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.00) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.01) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.02) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.03) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.04) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.05) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.06) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:0F.07) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:10.00) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:10.01) : 8086 208E class=088000
+0:107  0:000  PCI (00|16:14.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.02) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.03) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.05) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:14.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.02) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.03) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.05) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:15.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:16.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:16.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1D.00) : 8086 2054 class=088000
+0:107  0:000  PCI (00|16:1D.01) : 8086 2055 class=088000
+0:107  0:000  PCI (00|16:1D.02) : 8086 2056 class=088000
+0:107  0:000  PCI (00|16:1D.03) : 8086 2057 class=088000
+0:107  0:000  PCI (00|16:1E.00) : 8086 2080 class=088000
+0:107  0:000  PCI (00|16:1E.01) : 8086 2081 class=088000
+0:107  0:000  PCI (00|16:1E.02) : 8086 2082 class=088000
+0:107  0:000  PCI (00|16:1E.03) : 8086 2083 class=088000
+0:107  0:000  PCI (00|16:1E.04) : 8086 2084 class=088000
+0:107  0:000  PCI (00|16:1E.05) : 8086 2085 class=088000
+0:107  0:000  PCI (00|16:1E.06) : 8086 2086 class=088000
+0:107  0:000  PCI (00|16:1F.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.02) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.03) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.05) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|16:1F.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:00.00) : 8086 2030 class=060400
+0:107  0:000  PCI (00|65:00.00) : 1002 67DF class=030000
+0:107  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+0:107  0:000  PCI (00|65:00.01) : 1002 AAF0 class=040300
+0:107  0:000   - HDMI Audio: 
+0:107  0:000  PCI (00|64:05.00) : 8086 2034 class=088000
+0:107  0:000  PCI (00|64:05.02) : 8086 2035 class=088000
+0:107  0:000  PCI (00|64:05.04) : 8086 2036 class=080020
+0:107  0:000  PCI (00|64:05.06) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.00) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.02) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.03) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.04) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:07.07) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:08.00) : 8086 2066 class=088000
+0:107  0:000  PCI (00|64:08.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:09.00) : 8086 2066 class=088000
+0:107  0:000  PCI (00|64:09.01) : FFFF FFFF class=FFFFFF
+0:107  0:000  PCI (00|64:0A.00) : 8086 2040 class=088000
+0:107  0:000  PCI (00|64:0A.01) : 8086 2041 class=088000
+0:107  0:000  PCI (00|64:0A.02) : 8086 2042 class=088000
+0:107  0:000  PCI (00|64:0A.03) : 8086 2043 class=088000
+0:107  0:000  PCI (00|64:0A.04) : 8086 2044 class=088000
+0:107  0:000  PCI (00|64:0A.05) : 8086 2045 class=088000
+0:107  0:000  PCI (00|64:0A.06) : 8086 2046 class=088000
+0:107  0:000  PCI (00|64:0A.07) : 8086 2047 class=088000
+0:107  0:000  PCI (00|64:0B.00) : 8086 2048 class=088000
+0:107  0:000  PCI (00|64:0B.01) : 8086 2049 class=088000
+0:107  0:000  PCI (00|64:0B.02) : 8086 204A class=088000
+0:107  0:000  PCI (00|64:0B.03) : 8086 204B class=088000
+0:107  0:000  PCI (00|64:0C.00) : 8086 2040 class=088000
+0:107  0:000  PCI (00|64:0C.01) : 8086 2041 class=088000
+0:107  0:000  PCI (00|64:0C.02) : 8086 2042 class=088000
+0:107  0:000  PCI (00|64:0C.03) : 8086 2043 class=088000
+0:108  0:000  PCI (00|64:0C.04) : 8086 2044 class=088000
+0:108  0:000  PCI (00|64:0C.05) : 8086 2045 class=088000
+0:108  0:000  PCI (00|64:0C.06) : 8086 2046 class=088000
+0:108  0:000  PCI (00|64:0C.07) : 8086 2047 class=088000
+0:108  0:000  PCI (00|64:0D.00) : 8086 2048 class=088000
+0:108  0:000  PCI (00|64:0D.01) : 8086 2049 class=088000
+0:108  0:000  PCI (00|64:0D.02) : 8086 204A class=088000
+0:108  0:000  PCI (00|64:0D.03) : 8086 204B class=088000
+0:108  0:000  PCI (00|B2:05.00) : 8086 2034 class=088000
+0:108  0:000  PCI (00|B2:05.02) : 8086 2035 class=088000
+0:108  0:000  PCI (00|B2:05.04) : 8086 2036 class=080020
+0:108  0:000  PCI (00|B2:05.06) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.00) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.01) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.02) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.04) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:07.07) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:12.00) : 8086 204C class=110100
+0:108  0:000  PCI (00|B2:12.01) : 8086 204D class=110100
+0:108  0:000  PCI (00|B2:12.02) : 8086 204E class=088000
+0:108  0:000  PCI (00|B2:12.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:15.00) : 8086 2018 class=088000
+0:108  0:000  PCI (00|B2:15.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:16.00) : 8086 2018 class=088000
+0:108  0:000  PCI (00|B2:16.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:16.04) : 8086 2018 class=088000
+0:108  0:000  PCI (00|B2:16.07) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|B2:17.00) : 8086 2018 class=088000
+0:108  0:000  PCI (00|B2:17.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  === [ GetDefaultSettings ] ================================
+0:108  0:000  Clover load options size = 0 bytes
+0:133  0:025  EFI\CLOVER\config.plist loaded: Success
+0:142  0:008  === [ GetListOfThemes ] ===================================
+0:151  0:009  - [00]: BeautyX
+0:156  0:004  === [ Found config plists ] ===============================
+0:156  0:000  - config.plist
+0:161  0:004  === [ GetEarlyUserSettings ] ==============================
+0:161  0:000  timeout set to 5
+0:161  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:161  0:000  KextsToPatch: 8 requested
+0:161  0:000   - [00]: IOAHCIBlockStorage (SSD Trim Enabler) :: BinPatch :: data len: 10
+0:161  0:000   - [01]: com.apple.iokit.IOUSBHostFamily (USB Port Limit Patch 1 ©PMHeart) :: BinPatch :: data len: 5
+0:161  0:000   - [02]: com.apple.driver.usb.AppleUSBXHCI (USB Port Limit Patch 2 ©PMHeart) :: BinPatch :: data len: 6
+0:161  0:000   - [03]: com.apple.iokit.IOUSBHostFamily (USB Port Limit Patch 3 ©PMHeart) :: BinPatch :: data len: 8
+0:161  0:000   - [04]: com.apple.driver.AppleHIDKeyboard (F1/F2 Key Patch 1 ©Wern) :: BinPatch :: data len: 21
+0:161  0:000   - patch disabled at config
+0:161  0:000   - [05]: com.apple.driver.AppleHIDKeyboard (F1/F2 Key Patch 2 ©Wern) :: BinPatch :: data len: 21
+0:161  0:000   - patch disabled at config
+0:161  0:000   - [06]: com.apple.driver.AppleHDAController (FredWst DP/HDMI patch) :: BinPatch :: data len: 4
+0:161  0:000   - patch disabled at config
+0:161  0:000   - [07]: AppleEthernetAquantiaAqtion (Aquantia "built-in" patch ©Mieze) :: BinPatch :: data len: 8
+0:161  0:000   - patch disabled at config
+0:161  0:000  KernelToPatch: 1 requested
+0:161  0:000   - [00]: xcpm_core_scope_msrs © Pike R. Alpha :: data len: 7
+0:161  0:000  Default theme: BeautyX
+0:161  0:000  Hiding entries with string Preboot
+0:161  0:000  Hiding entries with string Recovery
+0:161  0:000  Hiding entries with string Windows
+0:161  0:000  === [ LoadDrivers ] =======================================
+0:171  0:009  Loading DataHubDxe-64.efi  status=Success
+0:172  0:001  Loading VBoxHfs-64.efi  status=Success
+0:173  0:000   - driver needs connecting
+0:173  0:000  Loading FSInject-64.efi  status=Success
+0:173  0:000  Loading ApfsDriverLoader-64.efi  status=Success
+0:173  0:000   - driver needs connecting
+0:173  0:000  Loading AppleImageLoader-64.efi  status=Success
+0:173  0:000  Loading SMCHelper-64.efi  status=Success
+0:178  0:005  Loading AptioMemoryFix-64.efi  status=Success
+0:179  0:000  Loading AudioDxe-64.efi  status=Success
+0:179  0:000   - driver needs connecting
+0:179  0:000  3 drivers needs connecting ...
+0:179  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:179  0:000  APFS driver loaded
+0:179  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+5:401  5:222  === [ InitScreen ] ========================================
+5:401  0:000  Console modes reported: 4, available modes:
+5:401  0:000   - [01]: 80x25 (current mode)
+5:401  0:000   - [02]: 128x40
+5:401  0:000   - [03]: 100x31
+5:401  0:000   - [04]: 240x56
+5:401  0:000  SetScreenResolution: 1920x1080 - already set
+5:401  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(1,GPT,42FD5A6D-B683-41B3-9C87-3F3725A66EE8,0x28,0x64000)
+5:401  0:000  Using embedded font: Success
+5:402  0:000  === [ GetMacAddress ] =====================================
+5:402  0:000   get legacy LAN MAC, 2 card found
+5:402  0:000  Legacy MAC address of LAN #0= FF:FF:FF:FF:FF:FF:
+5:402  0:000  Legacy MAC address of LAN #1= FF:FF:FF:FF:FF:FF:
+5:402  0:000  === [ ScanSPD ] ===========================================
+5:402  0:000  Scanning SMBus [8086:A2A3], mmio: 0xFFF44004, ioport: 0x3000, hostc: 0x11
+5:404  0:001  === [ GetAcpiTablesList ] =================================
+5:413  0:008  Get Acpi Tables List from RSDT:
+5:413  0:000   - [00]: FACP  A M I  len=132
+5:413  0:000   - [01]: FPDT  A M I  len=68
+5:413  0:000   - [02]: FIDT  A M I len=156
+5:413  0:000   - [03]: UEFI  A M I  len=66
+5:413  0:000   - [04]: MCFG  A M I len=60
+5:413  0:000   - [05]: HPET  A M I  len=56
+5:413  0:000   - [06]: APIC  A M I  len=1822
+5:413  0:000   - [07]: MCFG  A M I  len=60
+5:413  0:000   - [08]: MIGT  A M I  len=64
+5:413  0:000   - [09]: MSCT  A M I  len=78
+5:413  0:000   - [10]: PCCT  A M I  len=110
+5:413  0:000   - [11]: RASF  A M I  len=48
+5:413  0:000   - [12]: SLIT  A M I  len=108
+5:413  0:000   - [13]: SRAT  A M I  len=2608
+5:413  0:000   - [14]: SVOS  A M I  len=50
+5:413  0:000   - [15]: WDDT  A M I  len=64
+5:413  0:000   - [16]: OEM4  CPU  CST len=170610
+5:413  0:000   - [17]: OEM1  CPU EIST len=43979
+5:413  0:000   - [18]: SSDT  SSDT  PM len=54311
+5:413  0:000   - [19]: NITR  A M I  len=113
+5:413  0:000   - [20]: SSDT  A M I  len=2329
+5:413  0:000   - [21]: AAFT  OEMAAFT  len=816
+5:413  0:000   - [22]: LPIT  SKL len=148
+5:413  0:000   - [23]: WSMT  SKL len=40
+5:413  0:000   - [24]: WDAT  SKL len=308
+5:413  0:000   - [25]: DBGP   len=52
+5:413  0:000   - [26]: DBG2   len=84
+5:413  0:000   - [27]: VFCT  A M I  len=60548
+5:413  0:000   - [28]: BGRT  A M I  len=56
+5:413  0:000   - [29]: WSMT  A M I  len=40
+5:413  0:000  Calibrated TSC Frequency = 3504488300 = 3504MHz
+5:413  0:000  === [ GetUserSettings ] ===================================
+5:413  0:000  USB FixOwnership: no
+5:413  0:000  Dropping 1 tables:
+5:413  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+5:413  0:000           - set table: 52414D44,                0 to drop: no
+5:413  0:000   - final DSDT Fix mask=00000000
+5:413  0:000  PatchesDSDT: 68 requested
+5:413  0:000   - [00]: (PC00 -> PCI0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [01]: (_OSI -> XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [02]: (EC0_ -> EC__) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [03]: (H_EC -> EC__) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [04]: (HEC1 -> IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [05]: (IDER->MEID) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [06]: (LPC0 -> LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [07]: (FPU_ -> MATH) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [08]: (TMR_ -> TIMR) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [09]: (PIC_ -> IPIC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [10]: (SMBS._ADR -> XSBU.XADR) lenToFind: 9, lenToReplace: 9, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [11]: (_DSM -> XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000   - [12]: (CP00 -> PR00) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [13]: (CP01 -> PR01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [14]: (CP02 -> PR02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [15]: (CP03 -> PR03) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [16]: (CP04 -> PR04) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [17]: (CP05 -> PR05) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [18]: (CP06 -> PR06) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [19]: (CP07 -> PR07) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [20]: (CP08 -> PR08) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [21]: (CP09 -> PR09) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [22]: (CP0E -> PR10) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [23]: (CP0F -> PR11) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [24]: (CP10 -> PR12) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [25]: (CP11 -> PR13) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [26]: (CP12 -> PR14) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [27]: (CP13 -> PR15) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [28]: (CP14 -> PR16) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [29]: (CP15 -> PR17) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [30]: (CP1C -> PR18) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [31]: (CP1D -> PR19) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [32]: (CP1E -> PR20) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [33]: (CP1F -> PR21) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [34]: (CP20 -> PR22) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [35]: (CP21 -> PR23) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [36]: (CP22 -> PR24) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [37]: (CP23 ->PR25) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [38]: (CP24 -> PR26) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [39]: (CP25 -> PR27) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [40]: (CP2A -> PR28) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [41]: (CP2B -> PR29) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [42]: (CP2C -> PR30) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [43]: (CP2D -> PR31) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [44]: (CP2E -> PR32) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [45]: (CP2F -> PR33) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [46]: (CP30 -> PR34) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [47]: (CP31 -> PR35) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [48]: (CP0A -> PR36) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [49]: (CP0B -> PR37) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [50]: (CP0C -> PR38) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [51]: (CP0D -> PR39) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [52]: (CP16 -> PR40) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [53]: (CP17 -> PR41) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [54]: (CP18 -> PR42) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [55]: (CP19 -> PR43) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [56]: (CP1A -> PR44) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [57]: (CP1B -> PR45) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [58]: (CP26 -> PR46) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [59]: (CP27 -> PR47) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [60]: (CP28 -> PR48) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [61]: (CP29 -> PR49) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [62]: (CP32 -> PR50) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [63]: (CP33 -> PR51) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [64]: (CP34 -> PR52) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [65]: (CP35 -> PR53) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [66]: (CP36 -> PR54) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000   - [67]: (CP37 -> PR55) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:413  0:000    patch disabled at config
+5:413  0:000  Using ProductName from config: iMacPro1,1
+5:413  0:000  Found same BiosVersion in clover and config
+5:413  0:000  BiosVersion: IMP11.88Z.0064.B30.1712081714
+5:413  0:000  BiosReleaseDate: 12/08/2017
+5:413  0:000  Using EfiVersion from config: 220.250.330.0.0
+5:413  0:000  Using FirmwareFeatures from config: 0xFD8FF53F
+5:413  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+5:413  0:000  Board-ID set from config as Mac-7BA5B2D9E42DDD94
+5:413  0:000  BoardType: 0xA
+5:413  0:000  ChassisType: 0x9
+5:413  0:000  Converted CustomUUID 4914D527-AFF8-45AA-838E-90C76935F4F8
+5:413  0:000  === [ Found DSDT tables ] =================================
+5:552  0:138  === [ ScanVolumes ] =======================================
+5:552  0:000  Found 14 volumes with blockIO
+5:552  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)
+5:554  0:001          USB volume
+5:554  0:000          USB volume
+5:554  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(1,GPT,42FD5A6D-B683-41B3-9C87-3F3725A66EE8,0x28,0x64000)
+5:555  0:001          Result of bootcode detection: bootable unknown (legacy)
+5:555  0:000          USB volume
+5:555  0:000          USB volume
+5:560  0:004          This is SelfVolume !!
+5:560  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(2,GPT,7FB2E407-8EAD-40EB-B998-DE9FB9F172C2,0x64028,0xDC9FB0)
+5:561  0:000          USB volume
+5:561  0:000          USB volume
+5:561  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+5:561  0:000          Result of bootcode detection: bootable Linux (grub,linux)
+5:561  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,D1732817-0541-46DB-B873-CD2D2A2D0252,0x22,0x7DE)
+5:562  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:562  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,5CF1F27A-CB7C-4496-8B29-32B1EF3577AE,0x800,0x100000)
+5:562  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,28E518B1-3DCD-4C3A-8CE9-28A9B42D8FE7,0x100800,0x7460658F)
+5:563  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+5:563  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,383243C6-3AAA-4F92-8539-A0B16CABC312,0xFA000,0x32000)
+5:563  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:563  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+5:563  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,0EDC212F-CD73-4ED9-91F0-57CCFFBED58B,0x800,0xF9800)
+5:563  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:564  0:000          hiding this volume
+5:564  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,85F54798-66EC-41F3-9E99-605410826A3E,0xFA000,0x32000)
+5:564  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:564  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,BAA5EBFB-1F4F-44B5-AE54-B30EDAC63954,0x12C000,0x8000)
+5:564  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,34AFA228-FECC-4EED-860B-D4632BB344BF,0x134000,0x3B8AD000)
+5:564  0:000          Result of bootcode detection: bootable Windows (vista,win)
+5:564  0:000  found 2 handles with audio
+5:564  0:000  No AudioIoDevice stored
+5:564  0:000  no stored audio parameters
+5:564  0:000  === [ InitTheme ] =========================================
+5:564  0:000  use night theme
+5:570  0:005  Using theme 'BeautyX' (EFI\CLOVER\themes\BeautyX)
+5:570  0:000  OS main and drive as badge
+5:570  0:000  Warning! Character width 11 should be even!
+5:570  0:000  file sound read: sound_night.wav Not Found
+5:570  0:000  file sound read: sound.wav Not Found
+5:571  0:000  Loading font from ThemeDir: Success
+5:571  0:000  theme inited
+5:571  0:000  Chosen theme BeautyX
+5:571  0:000  after NVRAM boot-args=-v darkwake=0 keepsyms=1 debug=0x100
+5:571  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+5:571  0:000  found AppleSMC protocol
+5:590  0:018  Registered 16 SMC keys
+5:592  0:002  === [ ScanLoader ] ========================================
+5:592  0:000  - [01]: 'EFI'
+5:597  0:004          AddLoaderEntry for Volume Name=EFI
+5:597  0:000          skipped because entry is hidden
+5:597  0:000  - [02]: 'Install macOS Mojave'
+5:606  0:009          AddLoaderEntry for Volume Name=Install macOS Mojave
+5:655  0:049  - [08]: 'EFI'
+5:655  0:000  - [10]: 'Recovery', hidden
+5:655  0:000  - [11]: 'EFI'
+5:655  0:000  - [13]: ''
+5:655  0:000  === [ AddCustomTool ] =====================================
+5:661  0:005  === [ GetEfiBootDeviceFromNvram ] =========================
+5:661  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(2,GPT,7FB2E407-8EAD-40EB-B998-DE9FB9F172C2,0x64028,0xDC9FB0)\.IABootFiles\boot.efii
+5:661  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(2,GPT,7FB2E407-8EAD-40EB-B998-DE9FB9F172C2,0x64028,0xDC9FB0)'
+5:661  0:000    - LoaderPath: '\.IABootFiles\boot.efi'
+5:661  0:000    - Guid = 7FB2E407-8EAD-40EB-B998-DE9FB9F172C2
+5:661  0:000  === [ FindStartupDiskVolume ] =============================
+5:661  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1C,0x0)\Pci(0x0,0x0)\USB(0x3,0x0)\USB(0x3,0x0)\HD(2,GPT,7FB2E407-8EAD-40EB-B998-DE9FB9F172C2,0x64028,0xDC9FB0)
+5:661  0:000     - searching for that partition and loader '\.IABootFiles\boot.efi'
+5:661  0:000      - found entry 0. 'Boot macOS Install from Install macOS Mojave', Volume 'Install macOS Mojave', '\.IABootFiles\boot.efi'
+5:661  0:000  Boot redirected to Entry 0. 'Boot macOS Install from Install macOS Mojave'
+5:661  0:000  DefaultIndex=0 and MainMenu.EntryCount=5
+6:195  0:533  GUI ready
