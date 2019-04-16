@@ -1,0 +1,222 @@
+347:700  0:415  Found BIOS RSDP at F0010
+347:700  0:000  Printing ACPI tables from RSDP F0010 ...
+347:700  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+347:700  0:000    (Xsdt: 3F8AD0C8, Rsdt: 3F8AD028)
+347:700  0:000    3F8AD0C8: 'XSDT', 'A M I', Rev: 1, Len: 276
+347:700  0:000    3F8AD028: 'RSDT', 'A M I', Rev: 1, Len: 156
+347:700  0:000    Tables in Xsdt: 30
+347:700  0:000    0. 3F8CB3B8: 'FACP', 'A M I', Rev: 6, Len: 276
+347:700  0:000        (Dsdt: 3F8AD278, Facs: 403BC080, XDsdt: 3F8AD278, XFacs: 0)
+347:700  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:702  0:001        403BC080: 'FACS', Ver: 2, Len: 64
+347:702  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:702  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:702  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:702  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:702  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:702  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:702  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:702  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:702  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:702  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:702  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:702  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:702  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:702  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:702  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:702  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:702  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:702  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:702  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:702  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:702  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:702  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:702  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:702  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:702  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:702  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:702  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:702  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:702  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
+347:702  0:000    Tables in Rsdt: 30
+347:702  0:000    0. 3F8AD1F0: 'FACP', 'A M I', Rev: 2, Len: 132
+347:702  0:000        (Dsdt: 3F8AD278, Facs: 403BC040)
+347:702  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:704  0:001        403BC040: 'FACS', Ver: 0, Len: 64
+347:704  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:704  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:704  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:704  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:704  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:704  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:704  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:704  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:704  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:704  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:704  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:704  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:704  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:704  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:704  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:704  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:704  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:704  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:704  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:704  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:704  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:704  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:704  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:704  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:704  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:704  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:704  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:704  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:704  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
+347:704  0:000  Found UEFI Acpi 2.0 RSDP at 3F8AD000
+347:704  0:000  Saving ACPI tables from RSDP 3F8AD000 to EFI\CLOVER\ACPI\origin ...
+347:704  0:000   3F8AD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+347:704  0:000    (Xsdt: 3F8AD0C8, Rsdt: 3F8AD028)
+347:704  0:000    3F8AD0C8: 'XSDT', 'A M I', Rev: 1, Len: 276
+347:704  0:000    3F8AD028: 'RSDT', 'A M I', Rev: 1, Len: 156
+347:704  0:000    Tables in Xsdt: 30
+347:704  0:000    0. 3F8CB3B8: 'FACP', 'A M I', Rev: 6, Len: 276
+347:704  0:000        (Dsdt: 3F8AD278, Facs: 403BC080, XDsdt: 3F8AD278, XFacs: 0)
+347:704  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:706  0:001        403BC080: 'FACS', Ver: 2, Len: 64
+347:706  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:706  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:706  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:706  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:706  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:706  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:706  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:706  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:706  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:706  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:706  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:706  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:706  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:706  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:706  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:706  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:706  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:706  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:706  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:706  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:706  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:706  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:706  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:706  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:706  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:706  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:706  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:706  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:706  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
+347:706  0:000    Tables in Rsdt: 30
+347:706  0:000    0. 3F8AD1F0: 'FACP', 'A M I', Rev: 2, Len: 132
+347:706  0:000        (Dsdt: 3F8AD278, Facs: 403BC040)
+347:706  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:708  0:001        403BC040: 'FACS', Ver: 0, Len: 64
+347:708  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:708  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:708  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:708  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:708  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:708  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:708  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:708  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:708  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:708  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:708  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:708  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:708  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:708  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:708  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:708  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:708  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:708  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:708  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:708  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:708  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:708  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:708  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:708  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:708  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:708  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:708  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:708  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:708  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
+347:708  0:000  Found UEFI Acpi 1.0 RSDP at 3F8AD000
+347:708  0:000  Printing ACPI tables from RSDP 3F8AD000 ...
+347:708  0:000   3F8AD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+347:708  0:000    (Xsdt: 3F8AD0C8, Rsdt: 3F8AD028)
+347:708  0:000    3F8AD0C8: 'XSDT', 'A M I', Rev: 1, Len: 276
+347:708  0:000    3F8AD028: 'RSDT', 'A M I', Rev: 1, Len: 156
+347:708  0:000    Tables in Xsdt: 30
+347:708  0:000    0. 3F8CB3B8: 'FACP', 'A M I', Rev: 6, Len: 276
+347:708  0:000        (Dsdt: 3F8AD278, Facs: 403BC080, XDsdt: 3F8AD278, XFacs: 0)
+347:708  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:709  0:001        403BC080: 'FACS', Ver: 2, Len: 64
+347:709  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:709  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:710  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:710  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:710  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:710  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:710  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:710  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:710  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:710  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:710  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:710  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:710  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:710  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:710  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:710  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:710  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:710  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:710  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:710  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:710  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:710  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:710  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:710  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:710  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:710  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:710  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:710  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:710  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
+347:710  0:000    Tables in Rsdt: 30
+347:710  0:000    0. 3F8AD1F0: 'FACP', 'A M I', Rev: 2, Len: 132
+347:710  0:000        (Dsdt: 3F8AD278, Facs: 403BC040)
+347:710  0:000        3F8AD278: 'DSDT', 'A M I', Rev: 2, Len: 123197
+347:711  0:001        403BC040: 'FACS', Ver: 0, Len: 64
+347:711  0:000    1. 3F8CB4D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+347:711  0:000    2. 3F8CB518: 'FIDT', 'A M I', Rev: 1, Len: 156
+347:711  0:000    3. 3F8CB5B8: 'UEFI', 'A M I', Rev: 1, Len: 66
+347:711  0:000    4. 3F8CB600: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:711  0:000    5. 3F8CB640: 'HPET', 'A M I', Rev: 1, Len: 56
+347:711  0:000    6. 3F8CB678: 'APIC', 'A M I', Rev: 3, Len: 1822
+347:711  0:000    7. 3F8CBD98: 'MCFG', 'A M I', Rev: 1, Len: 60
+347:711  0:000    8. 3F8CBDD8: 'MIGT', 'A M I', Rev: 1, Len: 64
+347:711  0:000    9. 3F8CBE18: 'MSCT', 'A M I', Rev: 1, Len: 78
+347:711  0:000    10. 3F8CBE68: 'PCCT', 'A M I', Rev: 1, Len: 110
+347:711  0:000    11. 3F8CBED8: 'RASF', 'A M I', Rev: 1, Len: 48
+347:711  0:000    12. 3F8CBF08: 'SLIT', 'A M I', Rev: 1, Len: 108
+347:711  0:000    13. 3F8CBF78: 'SRAT', 'A M I', Rev: 3, Len: 2608
+347:711  0:000    14. 3F8CC9A8: 'SVOS', 'A M I', Rev: 1, Len: 50
+347:711  0:000    15. 3F8CC9E0: 'WDDT', 'A M I', Rev: 1, Len: 64
+347:711  0:000    16. 3F8CCA20: 'OEM4', 'CPU  CST', Rev: 2, Len: 170610
+347:711  0:000    17. 3F8F6498: 'OEM1', 'CPU EIST', Rev: 2, Len: 43979
+347:711  0:000    18. 3F901068: 'SSDT', 'SSDT  PM', Rev: 2, Len: 54311
+347:711  0:000    19. 3F90E490: 'NITR', 'A M I', Rev: 2, Len: 113
+347:711  0:000    20. 3F90E508: 'SSDT', 'A M I', Rev: 2, Len: 2329
+347:711  0:000    21. 3F90EE28: 'AAFT', 'OEMAAFT', Rev: 1, Len: 816
+347:711  0:000    22. 3F90F158: 'LPIT', 'SKL', Rev: 1, Len: 148
+347:711  0:000    23. 3F90F1F0: 'WSMT', 'SKL', Rev: 1, Len: 40
+347:711  0:000    24. 3F90F218: 'WDAT', 'SKL', Rev: 1, Len: 308
+347:711  0:000    25. 3F90F350: 'DBGP', '', Rev: 1, Len: 52
+347:711  0:000    26. 3F90F388: 'DBG2', '', Rev: 0, Len: 84
+347:711  0:000    27. 3F90F3E0: 'VFCT', 'A M I', Rev: 1, Len: 60548
+347:711  0:000    28. 3F91E068: 'BGRT', 'A M I', Rev: 1, Len: 56
+347:711  0:000    29. 3F91E0A0: 'WSMT', 'A M I', Rev: 1, Len: 40
