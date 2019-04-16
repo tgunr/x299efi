@@ -39,7 +39,7 @@
 					<key>Comment</key>
 					<string>_OSI -&gt; XOSI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -81,7 +81,7 @@
 					<key>Comment</key>
 					<string>HEC1 -&gt; IMEI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SEVDMQ==
@@ -95,7 +95,7 @@
 					<key>Comment</key>
 					<string>IDER-&gt;MEID</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SURFUg==
@@ -109,7 +109,7 @@
 					<key>Comment</key>
 					<string>LPC0 -&gt; LPCB</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					TFBDMA==
@@ -123,7 +123,7 @@
 					<key>Comment</key>
 					<string>FPU_ -&gt; MATH</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					RlBVXw==
@@ -137,7 +137,7 @@
 					<key>Comment</key>
 					<string>TMR_ -&gt; TIMR</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					VE1SXw==
@@ -151,7 +151,7 @@
 					<key>Comment</key>
 					<string>PIC_ -&gt; IPIC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UElDXw==
@@ -179,7 +179,7 @@
 					<key>Comment</key>
 					<string>_DSM -&gt; XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -1020,6 +1020,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>Type</key>
+		<string>0x0F01</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -1071,11 +1073,11 @@
 			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>3840x1600</string>
 		<key>ShowOptimus</key>
 		<true/>
 		<key>Theme</key>
-		<string>BeautyX</string>
+		<string>Beauty</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -1113,7 +1115,7 @@
 				<key>Comment</key>
 				<string>xcpm_core_scope_msrs © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				MdLokfz//w==
@@ -1150,7 +1152,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPD4c=
@@ -1168,7 +1170,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 2 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QYP/Dw+D
@@ -1186,7 +1188,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 3 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0+NBCd8=
@@ -1295,8 +1297,6 @@
 		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02723207GUJG36FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1307,12 +1307,10 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>220.250.330.0.0</string>
 		<key>Family</key>
 		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFD8FF53F</string>
+		<string>0xFD8FF53E</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
@@ -1325,19 +1323,15 @@
 		<string>0xFFFF</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
-		<key>SerialNumber</key>
-		<string>C02TT0FCHX87</string>
-		<key>SmUUID</key>
-		<string>42F387A1-F8A4-4217-9617-536C1E571780</string>
+		<key>Trust</key>
+		<false/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>4914D527-AFF8-45AA-838E-90C76935F4F8</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
