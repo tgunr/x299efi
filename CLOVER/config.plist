@@ -25,7 +25,7 @@
 					<key>Comment</key>
 					<string>PC00 -&gt; PCI0</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					UEMwMA==
@@ -165,7 +165,7 @@
 					<key>Comment</key>
 					<string>SMBS._ADR -&gt; XSBU.XADR</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					U01CUwhfQURS
@@ -1002,7 +1002,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v darkwake=0 keepsyms=1 debug=0x100</string>
+		<string>-lilubeta -alcbeta -wegbeta darkwake=8 -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -1016,7 +1016,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -1028,7 +1028,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>7</integer>
+			<integer>1</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -1082,7 +1082,7 @@
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
+			<true/>
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
@@ -1113,7 +1113,7 @@
 				<key>Comment</key>
 				<string>xcpm_core_scope_msrs © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				MdLokfz//w==
@@ -1150,7 +1150,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPD4c=
@@ -1168,7 +1168,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 2 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QYP/Dw+D
@@ -1186,7 +1186,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 3 ©PMHeart</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0+NBCd8=
@@ -1337,7 +1337,7 @@
 		<key>CustomUUID</key>
 		<string>4914D527-AFF8-45AA-838E-90C76935F4F8</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
