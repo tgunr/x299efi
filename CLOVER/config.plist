@@ -1002,7 +1002,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubeta -alcbeta -wegbeta darkwake=8 -v</string>
+		<string>-lilubeta -alcbeta -wegbeta -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -1025,11 +1025,6 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>Audio</key>
-		<dict>
-			<key>Inject</key>
-			<integer>1</integer>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -1073,7 +1068,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
-		<true/>
+		<false/>
 		<key>Theme</key>
 		<string>BeautyX</string>
 	</dict>
@@ -1095,8 +1090,6 @@
 	<dict>
 		<key>AppleIntelCPUPM</key>
 		<false/>
-		<key>AppleRTC</key>
-		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
@@ -1106,14 +1099,14 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
 				<string>xcpm_core_scope_msrs © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				MdLokfz//w==
@@ -1125,7 +1118,7 @@
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
-		<false/>
+		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
