@@ -12,18 +12,8 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddMCHC</key>
-				<true/>
-				<key>FixHPET</key>
-				<true/>
-				<key>FixIPIC</key>
-				<true/>
-				<key>FixRTC</key>
-				<true/>
 				<key>FixShutdown</key>
-				<true/>
-				<key>FixTMR</key>
-				<true/>
+				<false/>
 				<key>FixWAK</key>
 				<false/>
 			</dict>
@@ -33,65 +23,23 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>XHCI -&gt; XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XHC1 -&gt; XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>SAT0 -&gt; SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>PC00 -&gt; PCI0</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					WEhDSQ==
+					UEMwMA==
 					</data>
 					<key>Replace</key>
 					<data>
-					WEhDXw==
+					UENJMA==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>_OSI -&gt; XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -133,7 +81,7 @@
 					<key>Comment</key>
 					<string>HEC1 -&gt; IMEI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					SEVDMQ==
@@ -147,7 +95,7 @@
 					<key>Comment</key>
 					<string>IDER-&gt;MEID</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					SURFUg==
@@ -161,7 +109,7 @@
 					<key>Comment</key>
 					<string>LPC0 -&gt; LPCB</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					TFBDMA==
@@ -175,7 +123,7 @@
 					<key>Comment</key>
 					<string>FPU_ -&gt; MATH</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RlBVXw==
@@ -189,7 +137,7 @@
 					<key>Comment</key>
 					<string>TMR_ -&gt; TIMR</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					VE1SXw==
@@ -203,7 +151,7 @@
 					<key>Comment</key>
 					<string>PIC_ -&gt; IPIC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					UElDXw==
@@ -217,7 +165,7 @@
 					<key>Comment</key>
 					<string>SMBS._ADR -&gt; XSBU.XADR</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					U01CUwhfQURS
@@ -231,7 +179,7 @@
 					<key>Comment</key>
 					<string>_DSM -&gt; XDSM</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -1035,13 +983,7 @@
 				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MATS</string>
-			</dict>
 		</array>
-		<key>FixHeaders</key>
-		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -1060,7 +1002,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubeta -alcbeta -wegbeta darkwake=8 -v -keepsyms=1 dart=0 debug=0x100 shikigva=40</string>
+		<string>-lilubeta -alcbeta -wegbeta darkwake=8 -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -1087,31 +1029,13 @@
 		<dict>
 			<key>Inject</key>
 			<integer>1</integer>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
-				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
-			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
+			<key>Inject</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -1141,13 +1065,15 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
-		<false/>
+		<true/>
 		<key>Theme</key>
 		<string>BeautyX</string>
 	</dict>
@@ -1204,107 +1130,9 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Port limit increase</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g710////EA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g710////Gw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase (RehabMan)</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g32IDw+DpwQAAA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g32ID5CQkJCQkA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase (PMHeart)</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g/sPD4MDBQAA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.0</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/sPkJCQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase (Ricky)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g/sPD4OPBAAA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/sPkJCQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>External Icons Patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSD Trim Enabler</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				QVBQTEUgU1NEAA==
