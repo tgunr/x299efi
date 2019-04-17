@@ -1451,7 +1451,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x3e7</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -1468,7 +1468,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02723207GUJG36FB</string>
+		<string>C02726902CDH69F1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1496,11 +1496,11 @@
 		<key>PlatformFeature</key>
 		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>iMacPro1,1</string>
+		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C02TT0FCHX87</string>
+		<string>C02TX0VDH7JY</string>
 		<key>SmUUID</key>
-		<string>42F387A1-F8A4-4217-9617-536C1E571780</string>
+		<string>91492A73-595C-4D97-A6FC-2B5D3ED1B54D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
